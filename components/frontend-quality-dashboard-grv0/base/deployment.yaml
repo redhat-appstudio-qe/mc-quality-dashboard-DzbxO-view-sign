@@ -55,7 +55,7 @@ spec:
             secretKeyRef:
               key: dex-application-id
               name: quality-dashboard-secrets
-        image: quay.io/flacatus/qs-frontend:latest
+        image: quay.io/redhat-appstudio-qe/rhtap-demo-fsic-tenant/mc-quality-dashboard/frontend-quality-dashboard-grv0@sha256:1da75b7ebd6c5db8ac1f6f2cf0eb4c37c5a52e8fbb8b5ae3d9f80475843c606a
         imagePullPolicy: Always
         name: quality-frontend-dashboard
         ports:
